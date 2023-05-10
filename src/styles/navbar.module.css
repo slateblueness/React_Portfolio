@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "Hahmlet-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Hahmlet-ExtraBold.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSansKR-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "establishRetrosansOTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2112@1.0/establishRetrosansOTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SUITE-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Bold.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.header {
+  background-color: white;
+  color: rgb(7, 93, 7);
+  padding: 20px 50px;
+  font-size: 25px;
+  font-family: "Hahmlet-Regular";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search {
+  width: 580px;
+  height: 50px;
+  border: none;
+}
+
+::placeholder {
+  font-size: 20px;
+  font-family: "SUITE-Regular";
+  text-align: center;
+}
+
+.link {
+  height: 50px;
+  font-family: "SUITE-Regular";
+  font-size: 25px;
+  text-decoration: none;
+  color: rgb(7, 93, 7);
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+.link:hover {
+  height: 50px;
+  font-family: "SUITE-Regular";
+  font-size: 25px;
+  font-style: italic;
+  color: rgb(7, 93, 7);
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+.btn {
+  border: none;
+  background-color: white;
+  font-size: 25px;
+}
+
+.searchDiv {
+  border-bottom: 2px black solid;
+  width: 650px;
+}
+
+.title {
+  text-decoration: none;
+  font-size: 50px;
+  margin-left: 20px;
+  color: rgb(7, 93, 7);
+}
+
+.link2 {
+  font-family: "Pretendard-Regular";
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: solid 2px rgb(7, 93, 7);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+.link2:hover {
+  font-family: "Pretendard-Regular";
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border: solid 2px rgb(7, 93, 7);
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: rgb(207, 214, 213);
+}
+
+.header2 {
+  font-size: 25px;
+  padding: 20px 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.activeLink {
+  height: 50px;
+  font-family: "SUITE-Regular";
+  font-size: 25px;
+  font-style: italic;
+  color: darkorange;
+  margin-right: 40px;
+  margin-left: 20px;
+}
+
+.activeLink2 {
+  font-family: "Pretendard-Regular";
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(59, 163, 59, 0.788);
+  padding: 10px 15px;
+  border-radius: 10px;
+  border: solid 2px rgb(7, 93, 7);
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  height: 60px;
+}
+
+.menu {
+  margin-top: 2000px;
+}

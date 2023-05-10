@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "IBMPlexSansKR-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SBAggroL";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroL.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SBAggroB";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.img {
+  background-image: url(../img/example.png);
+  width: 800px;
+  height: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 2px solid black;
+}
+
+.title {
+  font-family: "SBAggroL";
+  font-size: 2.5rem;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 70px;
+  padding-bottom: 12px;
+  border-bottom: 2px double black;
+  width: 1100px;
+}
+
+.intro {
+  margin-top: 70px;
+  width: 100vw;
+}
+
+.img2 {
+  background-image: url(../img/introImg.png);
+  width: 600px;
+  height: 450px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid rgb(7, 93, 7);
+  border-radius: 30px;
+  margin-left: 50px;
+  margin-bottom: 50px;
+}
+
+.introImg {
+  display: flex;
+}
+
+.title2 {
+  font-family: "SBAggroL";
+  font-size: 2.4rem;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 40px;
+  padding-bottom: 12px;
+  padding-top: 50px;
+  border-bottom: 2px double black;
+  width: 880px;
+}

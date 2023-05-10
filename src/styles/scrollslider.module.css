@@ -1,0 +1,39 @@
+.scroll {
+  width: 885px;
+  height: 500px;
+  border: 2px solid darkorange;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+
+.img1 {
+  background-image: url(../img/4.png);
+  width: 880px;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.img2 {
+  background-image: url(../img/5.png);
+  width: 880px;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.img3 {
+  background-image: url(../img/6.png);
+  width: 880px;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,45 @@
+.mySwiper {
+  height: 450px;
+  width: 750px;
+  text-align: center;
+  font-size: 18px;
+  border: 2px solid rgb(7, 93, 7);
+  border-radius: 30px;
+  margin-right: 50px;
+}
+
+.img1 {
+  background-image: url(../img/1.png);
+  width: 630px;
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.img2 {
+  background-image: url(../img/2.png);
+  width: 630px;
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.img3 {
+  background-image: url(../img/3.png);
+  width: 630px;
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
