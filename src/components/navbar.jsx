@@ -64,6 +64,19 @@ export default function Navbar() {
           >
             📘 출판사별 내신 대비
           </NavLink>
+          <CSSTransition
+            in={isOpen}
+            timeout={300}
+            classNames="menu"
+            unmountOnExit
+          >
+            <ul style={{ position: "absolute" }}>
+              <li>출판사별</li>
+              <li>출판사 1</li>
+              <li>출판사 2</li>
+              <li>출판사 3</li>
+            </ul>
+          </CSSTransition>
 
           <NavLink
             className={({ isActive }) =>
